@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-      <div className="contain p-20 min-w-full min-h-screen">
+      <div className="contain p-20 min-w-full min-h-full">
   
         <section className="flex">
           <div className="xl:w-1/2 lg:w-full p-4 ">
