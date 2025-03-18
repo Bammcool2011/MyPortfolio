@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div>
+        <div className="mb-10">
             <h1 className="scroll-m-20 text-4xl font-semibold tracking-tight lg:text-5xl justify-center flex text-white">
                 About
             </h1>
