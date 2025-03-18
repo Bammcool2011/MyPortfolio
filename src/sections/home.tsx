@@ -2,12 +2,12 @@ import { Button } from "../components/ui/button";
 
 export default function Home() {
   return (
-    <div className="p-20 min-w-full min-h-screen">
+    <div className="p-15 md:20 min-w-full min-h-screen">
       <section className="flex flex-col xl:flex-row">
         <div className="xl:w-1/2 p-4">
           <span className="text-4xl text-white leading-relaxed">
             <h1>Hello! My name is</h1>
-            <h1 className="text-6xl text-white font-semibold">Pumin Whungprasit</h1>
+            <h1 className="text-5xl md:text-6xl text-white font-semibold">Pumin Whungprasit</h1>
           </span>
 
           <p className="text-[#e31b6d] text-2xl mt-6 tracking-widest">

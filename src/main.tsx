@@ -5,6 +5,7 @@ import Home from './sections/home'
 import Navbar from './components/navbar'
 import About from './sections/about'
 import Skills from './sections/skills'
+import Projects from './sections/project'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')!).render(
     <Home />
     <About />
     <Skills />
+    <Projects />
   </StrictMode>,
 )
