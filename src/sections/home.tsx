@@ -12,7 +12,7 @@ export default function Home() {
           </span>
 
           <p className='inline-flex whitespace-pre-wrap text-2xl mt-6 tracking-widest text-[#e31b6d]'>
-            Junior Dev •{' '}
+            Junior •{' '}
             <TextLoop
               className='overflow-y-clip'
               transition={{
@@ -44,7 +44,7 @@ export default function Home() {
             >
               <span>Software Engineer</span>
               <span>Developers</span>
-              <span>Designers</span>
+              <span>Gamer</span>
             </TextLoop>
           </p>
 
@@ -56,7 +56,9 @@ export default function Home() {
             and grow as a developer, focusing on both frontend and backend
             technologies to build impactful solutions.
           </p>
-          <Button variant="outline" className="mt-10 text-white text-xl">View my resume</Button>
+          <Button variant="outline" className="mt-10 text-white text-xl">
+            <a href="https://drive.google.com/file/d/127ODDoYMQOoKpI1GBwWI_f79gIDDypAu/view?usp=drive_link" target="_blank" rel="noopener noreferrer">View my resume</a>
+          </Button>
         </div>
 
         <div className="w-full xl:w-1/2 p-6 xl:block hidden">
