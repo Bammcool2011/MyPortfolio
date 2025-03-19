@@ -101,7 +101,7 @@ export default function Skills() {
 
             <div className="m-10">
                 <h2 className="text-white text-4xl mb-5">
-                    Multimedia & Design
+                    Miscellaneous
                 </h2>
                 <div className="flex flex-wrap gap-4">
                     {multimedia.map((skill) => (

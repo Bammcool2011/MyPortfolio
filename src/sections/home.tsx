@@ -44,7 +44,7 @@ export default function Home() {
             >
               <span>Software Engineer</span>
               <span>Developers</span>
-              <span>Gamer</span>
+              <span>Learner</span>
             </TextLoop>
           </p>
 
