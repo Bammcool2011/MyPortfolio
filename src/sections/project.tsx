@@ -49,7 +49,7 @@ export default function Projects() {
             {/* Project Details */}
             <div className="text-white text-center lg:text-left flex flex-col lg:w-3/4 py-6 lg:py-0">
               <h2 className="text-3xl font-semibold mb-2">{project.title}</h2>
-              <p className="text-lg font-light text-justify">{project.details}</p>
+              <p className="text-lg font-light text-left md:text-justify">{project.details}</p>
             </div>
           </div>
         ))}
