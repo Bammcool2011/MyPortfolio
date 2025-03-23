@@ -2,14 +2,14 @@ import { GlowEffect } from "@/components/ui/glow-effect";
 
 const projectData = [
   {
-    imageSrc: "src/assets/projects/cs-mods.png",
+    imageSrc: "https://i.imgur.com/CoVnGlu.png",
     imageAlt: "Cities: Skylines Thai Localization Mod",
     title: "Cities: Skylines Thai Localization Mod",
     details:
       "This community-driven mod provides a complete Thai localization for Cities: Skylines. It involved developing C++ interfaces to dynamically replace in-game text, creating XML parsing tools to manage over 15,000 strings, and resolving font rendering issues for Thai script compatibility, ensuring seamless UI integration across game updates.",
   },
   {
-    imageSrc: "src/assets/projects/style-war.jpg",
+    imageSrc: "https://i.imgur.com/u5xqsZd.jpeg",
     imageAlt: "Style-War: Real-Time CSS Battle Platform",
     title: "Style-War: Real-Time CSS Battle Platform",
     details:
