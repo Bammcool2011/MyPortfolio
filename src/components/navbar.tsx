@@ -7,9 +7,9 @@ export default function Navbar() {
   const navItems = [
     { name: 'HOME', href: '#home' },
     { name: 'ABOUT', href: '#about' },
+    { name: 'SKILLS', href: '#skills' },
     { name: 'PROJECTS', href: '#projects' },
     { name: 'CONTACT', href: '#contact' },
-    { name: 'SKILLS', href: '#skills' },
   ];
 
   const handleNavigation = (href: string) => {

@@ -5,9 +5,12 @@ export default function Home() {
   const scrollToAbout = () => {
     const aboutSection = document.getElementById('about');
     if (aboutSection) {
-      aboutSection.scrollIntoView({ behavior: 'smooth' });
+      const offset = 120;
+      const topPosition = aboutSection.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top: topPosition, behavior: 'smooth' });
     }
   };
+
 
   return (
     <div id='home'>

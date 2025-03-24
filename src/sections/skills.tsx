@@ -42,13 +42,13 @@ export default function Skills() {
     ];
 
     return (
-        <div id='skills'>
+        <div id='skills' className="mb-20">
             <h1 className="scroll-m-20 text-4xl font-semibold tracking-tight lg:text-5xl justify-center flex text-white">
                 Skills
             </h1>
 
             <div className="m-10">
-                <h2 className="text-white text-4xl mb-5">
+                <h2 className="text-white text-2xl md:text-3xl mb-5">
                     Programming Languages
                 </h2>
                 <div className="flex flex-wrap gap-4">
@@ -61,7 +61,7 @@ export default function Skills() {
             </div>
 
             <div className="m-10">
-                <h2 className="text-white text-4xl mb-5">
+                <h2 className="text-white text-2xl md:text-3xl mb-5">
                     Front End
                 </h2>
                 <div className="flex flex-wrap gap-4">
@@ -74,7 +74,7 @@ export default function Skills() {
             </div>
 
             <div className="m-10">
-                <h2 className="text-white text-4xl mb-5">
+                <h2 className="text-white text-2xl md:text-3xl mb-5">
                     Databases
                 </h2>
                 <div className="flex flex-wrap gap-4">
@@ -87,7 +87,7 @@ export default function Skills() {
             </div>
 
             <div className="m-10">
-                <h2 className="text-white text-4xl mb-5">
+                <h2 className="text-white text-2xl md:text-3xl mb-5">
                     Tools
                 </h2>
                 <div className="flex flex-wrap gap-4">
@@ -100,7 +100,7 @@ export default function Skills() {
             </div>
 
             <div className="m-10">
-                <h2 className="text-white text-4xl mb-5">
+                <h2 className="text-white text-2xl md:text-3xl mb-5">
                     Miscellaneous
                 </h2>
                 <div className="flex flex-wrap gap-4">
