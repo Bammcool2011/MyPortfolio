@@ -2,8 +2,15 @@ import { TextLoop } from "@/components/ui/text-loop";
 import { Button } from "../components/ui/button";
 
 export default function Home() {
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById('about');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    <div className="sm:p-15 p-10 md:20 min-w-full min-h-screen">
+    <div className="sm:p-15 p-10 md:20 min-w-full min-h-screen relative">
       <section className="flex flex-col xl:flex-row">
         <div className="xl:w-1/2 p-4">
           <span className="sm:text-4xl text-2xl text-white leading-relaxed">
@@ -22,24 +29,9 @@ export default function Home() {
                 mass: 10,
               }}
               variants={{
-                initial: {
-                  y: 20,
-                  rotateX: 90,
-                  opacity: 0,
-                  filter: 'blur(4px)',
-                },
-                animate: {
-                  y: 0,
-                  rotateX: 0,
-                  opacity: 1,
-                  filter: 'blur(0px)',
-                },
-                exit: {
-                  y: -20,
-                  rotateX: -90,
-                  opacity: 0,
-                  filter: 'blur(4px)',
-                },
+                initial: { y: 20, rotateX: 90, opacity: 0, filter: 'blur(4px)' },
+                animate: { y: 0, rotateX: 0, opacity: 1, filter: 'blur(0px)' },
+                exit: { y: -20, rotateX: -90, opacity: 0, filter: 'blur(4px)' },
               }}
             >
               <span>Engineer</span>
@@ -56,9 +48,16 @@ export default function Home() {
             and grow as a developer, focusing on both frontend and backend
             technologies to build impactful solutions.
           </p>
-          <Button variant="outline" className="mt-6 text-white text-xl">
-            <a href="https://drive.google.com/file/d/127ODDoYMQOoKpI1GBwWI_f79gIDDypAu/view?usp=drive_link" target="_blank" rel="noopener noreferrer">View my resume</a>
-          </Button>
+          
+          <div className="flex justify-center md:justify-start space-x-4">
+            <Button variant="outline" className="mt-6 text-white text-xl">
+              <a href="https://drive.google.com/file/d/127ODDoYMQOoKpI1GBwWI_f79gIDDypAu/view?usp=drive_link" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                View my resume
+              </a>
+            </Button>
+          </div>
         </div>
 
         <div className="w-full xl:w-1/2 p-6 xl:block hidden">
@@ -75,6 +74,30 @@ export default function Home() {
           </pre>
         </div>
       </section>
+
+      {/* Down Arrow Button at Bottom */}
+      <div className="absolute bottom-40 left-1/2 transform -translate-x-1/2">
+        <Button
+          variant="outline"
+          className="w-16 h-16 rounded-full p-0 flex items-center justify-center border-white hover:bg-white/10 transition-colors"
+          onClick={scrollToAbout}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6 text-white"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M19 14l-7 7m0 0l-7-7m7 7V3"
+            />
+          </svg>
+        </Button>
+      </div>
     </div>
   );
 }
