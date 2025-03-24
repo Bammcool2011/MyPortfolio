@@ -59,37 +59,46 @@ export default function Navbar() {
           </a>
           <Button
             variant="ghost"
-            className="p-2 text-white hover:bg-transparent hover:text-[#e31b6d]"
+            className="p-2 text-white hover:bg-transparent hover:text-[#e31b6d] relative z-50"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              {isOpen ? (
+            {isOpen ? (
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
                   d="M6 18L18 6M6 6l12 12"
                 />
-              ) : (
+              </svg>
+            ) : (
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
                   d="M4 6h16M4 12h16M4 18h16"
                 />
-              )}
-            </svg>
+              </svg>
+            )}
           </Button>
         </div>
 
+
         {isOpen && (
-          <div className="fixed inset-y-0 right-0 w-64 bg-[#0a1018] pt-16 shadow-lg animate-in slide-in-from-right duration-300">
+          <div className="fixed inset-y-0 right-0 w-64 bg-[#0a1018] pt-16 shadow-lg animate-in slide-in-from-right duration-300 z-40">
             <div className="flex flex-col items-center">
               {navItems.map((item) => (
                 <a

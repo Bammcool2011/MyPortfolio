@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <div id='home'>
-      <div className="sm:p-15 p-10 md:20 min-w-full min-h-screen relative top-16">
+      <div className="sm:p-15 p-10 md:20 min-w-full min-h-screen relative top-16 mb-15">
         <section className="flex flex-col xl:flex-row">
           <div className="xl:w-1/2 p-4">
             <span className="sm:text-4xl text-2xl text-white leading-relaxed">
