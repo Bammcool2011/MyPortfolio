@@ -42,7 +42,7 @@ export default function Skills() {
     ];
 
     return (
-        <div className="p-5 sm:p-10 lg:p-20 ">
+        <div id='skills'>
             <h1 className="scroll-m-20 text-4xl font-semibold tracking-tight lg:text-5xl justify-center flex text-white">
                 Skills
             </h1>

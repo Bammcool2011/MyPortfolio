@@ -19,7 +19,7 @@ const projectData = [
 
 export default function Projects() {
   return (
-    <div className="p-5 sm:p-10">
+    <div id='projects' className="p-5 sm:p-10">
       <h1 className="text-4xl font-semibold tracking-tight text-center text-white lg:text-5xl">
         Projects
       </h1>
