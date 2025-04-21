@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { FaCode, FaDatabase, FaTools, FaPaintBrush, FaHtml5 } from "react-icons/fa";
 
 export default function Skills() {
     const frontEndSkills = [
@@ -48,8 +49,8 @@ export default function Skills() {
             </h1>
 
             <div className="m-10">
-                <h2 className="text-white text-2xl md:text-3xl mb-5">
-                    Programming Languages
+                <h2 className="text-white text-2xl md:text-3xl mb-5 flex items-center gap-2">
+                    <FaCode /> Programming Languages
                 </h2>
                 <div className="flex flex-wrap gap-4">
                     {programmingLanguages.map((skill) => (
@@ -61,8 +62,8 @@ export default function Skills() {
             </div>
 
             <div className="m-10">
-                <h2 className="text-white text-2xl md:text-3xl mb-5">
-                    Front End
+                <h2 className="text-white text-2xl md:text-3xl mb-5 flex items-center gap-2">
+                    <FaHtml5 /> Front End
                 </h2>
                 <div className="flex flex-wrap gap-4">
                     {frontEndSkills.map((skill) => (
@@ -74,8 +75,8 @@ export default function Skills() {
             </div>
 
             <div className="m-10">
-                <h2 className="text-white text-2xl md:text-3xl mb-5">
-                    Databases
+                <h2 className="text-white text-2xl md:text-3xl mb-5 flex items-center gap-2">
+                    <FaDatabase /> Databases
                 </h2>
                 <div className="flex flex-wrap gap-4">
                     {databases.map((skill) => (
@@ -87,8 +88,8 @@ export default function Skills() {
             </div>
 
             <div className="m-10">
-                <h2 className="text-white text-2xl md:text-3xl mb-5">
-                    Tools
+                <h2 className="text-white text-2xl md:text-3xl mb-5 flex items-center gap-2">
+                    <FaTools /> Tools
                 </h2>
                 <div className="flex flex-wrap gap-4">
                     {tools.map((skill) => (
@@ -100,8 +101,8 @@ export default function Skills() {
             </div>
 
             <div className="m-10">
-                <h2 className="text-white text-2xl md:text-3xl mb-5">
-                    Miscellaneous
+                <h2 className="text-white text-2xl md:text-3xl mb-5 flex items-center gap-2">
+                    <FaPaintBrush /> Miscellaneous
                 </h2>
                 <div className="flex flex-wrap gap-4">
                     {multimedia.map((skill) => (
