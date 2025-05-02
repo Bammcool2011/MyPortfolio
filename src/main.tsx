@@ -10,9 +10,9 @@ import Projects from './sections/project'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Navbar />
-    <Home />
-    <About />
-    <Skills />
-    <Projects />
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
   </StrictMode>,
 )

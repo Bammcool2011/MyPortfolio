@@ -1,0 +1,132 @@
+[
+    {
+        "section": "Programming Languages",
+        "icon": "FaCode",
+        "skills": [
+            {
+                "name": "JavaScript",
+                "id": "javascript"
+            },
+            {
+                "name": "TypeScript",
+                "id": "typescript"
+            },
+            {
+                "name": "Golang",
+                "id": "golang"
+            },
+            {
+                "name": "PHP",
+                "id": "php"
+            },
+            {
+                "name": "Java",
+                "id": "java"
+            },
+            {
+                "name": "Python",
+                "id": "python"
+            },
+            {
+                "name": "C++",
+                "id": "cpp"
+            }
+        ]
+    },
+    {
+        "section": "Front End",
+        "icon": "FaHtml5",
+        "skills": [
+            {
+                "name": "Next.js",
+                "id": "nextjs"
+            },
+            {
+                "name": "React",
+                "id": "react"
+            },
+            {
+                "name": "Vite",
+                "id": "vite"
+            },
+            {
+                "name": "HTML5",
+                "id": "html5"
+            },
+            {
+                "name": "CSS",
+                "id": "css"
+            }
+        ]
+    },
+    {
+        "section": "Databases",
+        "icon": "FaDatabase",
+        "skills": [
+            {
+                "name": "MySQL",
+                "id": "mysql"
+            },
+            {
+                "name": "MongoDB",
+                "id": "mongodb"
+            }
+        ]
+    },
+    {
+        "section": "Tools",
+        "icon": "FaTools",
+        "skills": [
+            {
+                "name": "Docker",
+                "id": "docker"
+            },
+            {
+                "name": "Git",
+                "id": "git"
+            },
+            {
+                "name": "GitHub",
+                "id": "github"
+            },
+            {
+                "name": "Visual Studio",
+                "id": "visualstudio"
+            },
+            {
+                "name": "IntelliJ IDEA",
+                "id": "intellij"
+            },
+            {
+                "name": "Node.js",
+                "id": "nodejs"
+            }
+        ]
+    },
+    {
+        "section": "Miscellaneous",
+        "icon": "FaPaintBrush",
+        "skills": [
+            {
+                "name": "Photoshop",
+                "id": "photoshop"
+            },
+            {
+                "name": "Premiere Pro",
+                "id": "premierepro"
+            },
+            {
+                "name": "DaVinci Resolve",
+                "id": "davinciresolve"
+            },
+            {
+                "name": "Illustrator",
+                "id": "illustrator"
+            },
+            {
+                "name": "Lightroom",
+                "id": "lightroom"
+            }
+        ]
+    }
+]
