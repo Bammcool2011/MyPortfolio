@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <div id='home'>
-      <div className="min-w-full min-h-screen relative top-16 mb-15">
+      <div className="min-w-full sm:min-h-screen relative top-16 mb-40 sm:mb-15">
         <section className="flex flex-col xl:flex-row">
           <div className="xl:w-1/2 p-4">
             <span className="sm:text-4xl text-2xl text-white leading-relaxed">
@@ -54,7 +54,7 @@ export default function Home() {
             </p>
 
             <div className="flex justify-center md:justify-start space-x-4">
-              <Button variant="outline" className="mt-6 text-white text-xl">
+              <Button variant="outline" className="mt-10 sm:mt-6 text-white text-xl">
                 <a href="https://drive.google.com/file/d/127ODDoYMQOoKpI1GBwWI_f79gIDDypAu/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer">

@@ -11,7 +11,7 @@ export default function ProjectsSection() {
           Projects
         </h1>
 
-        <div className="flex flex-col gap-10 sm:p-20 p-10">
+        <div className="flex flex-col gap-14 sm:p-20 p-10">
           {projectData.map((project) => (
             <div
               key={project.title}

@@ -10,9 +10,11 @@ import Projects from './sections/project'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Navbar />
+    <div className='px-12 py-14 '>
       <Home />
       <About />
       <Skills />
       <Projects />
+    </div>
   </StrictMode>,
 )
