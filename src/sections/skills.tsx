@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import {
     FaCode,
     FaDatabase,
@@ -33,9 +32,12 @@ export default function Skills() {
                         </h2>
                         <div className="flex flex-wrap gap-4">
                             {section.skills.map((skill) => (
-                                <Button key={skill.id} variant="secondary" className="text-lg">
+                                <button
+                                    key={skill.id}
+                                    className="btn btn-outline text-lg text-white border-[1px]"
+                                >
                                     {skill.name}
-                                </Button>
+                                </button>
                             ))}
                         </div>
                     </div>

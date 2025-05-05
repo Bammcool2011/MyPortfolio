@@ -5,8 +5,8 @@ const glowColors = ["#f06292", "#c2185b", "#e91e63"];
 
 export default function ProjectsSection() {
   return (
-    <div id='section-projects' className="px-5 sm:px-10">
-      <div id='projects' className="px-5 sm:px-10">
+    <div id='section-projects'>
+      <div id='projects'>
         <h1 className="text-4xl font-semibold tracking-tight text-center text-white lg:text-5xl">
           Projects
         </h1>
@@ -37,6 +37,22 @@ export default function ProjectsSection() {
               <div className="text-white text-center lg:text-left flex flex-col lg:w-3/4 py-6 lg:py-0">
                 <h2 className="text-3xl font-semibold mb-2">{project.title}</h2>
                 <p className="text-lg font-light text-justify">{project.details}</p>
+                {/* Button Section */}
+                {project.links && project.links.length > 0 && (
+                  <div className="mt-4 flex flex-wrap gap-2 justify-center lg:justify-start">
+                    {project.links.map((link) => (
+                      <a
+                        key={link.label}
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary btn-sm"
+                      >
+                        {link.label}
+                      </a>
+                    ))}
+                  </div>
+                )}
               </div>
             </div>
           ))}

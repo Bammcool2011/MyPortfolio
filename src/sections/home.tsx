@@ -1,5 +1,4 @@
 import { TextLoop } from "@/components/ui/text-loop";
-import { Button } from "../components/ui/button";
 
 export default function Home() {
   const scrollToAbout = () => {
@@ -54,13 +53,17 @@ export default function Home() {
             </p>
 
             <div className="flex justify-center md:justify-start space-x-4">
-              <Button variant="outline" className="mt-10 sm:mt-6 text-white text-xl">
-                <a href="https://drive.google.com/file/d/127ODDoYMQOoKpI1GBwWI_f79gIDDypAu/view?usp=drive_link"
+              <button
+                className="btn btn-outline border-[1px] mt-10 sm:mt-6 text-white text-xl"
+              >
+                <a
+                  href="https://drive.google.com/file/d/127ODDoYMQOoKpI1GBwWI_f79gIDDypAu/view?usp=drive_link"
                   target="_blank"
-                  rel="noopener noreferrer">
+                  rel="noopener noreferrer"
+                >
                   View my resume
                 </a>
-              </Button>
+              </button>
             </div>
           </div>
 
@@ -80,11 +83,12 @@ export default function Home() {
         </section>
 
         {/* Down Arrow Button at Bottom */}
-        <div className="absolute bottom-40 left-1/2 transform -translate-x-1/2 hidden sm:block">
-          <Button
-            variant="outline"
-            className="w-16 h-16 rounded-full p-0 flex items-center justify-center border-white hover:bg-white/10 transition-colors"
+        <div className="absolute bottom-50 left-1/2 transform -translate-x-1/2 hidden sm:block">
+          <button
+            className="btn btn-outline w-16 h-16 rounded-full p-0 flex items-center justify-center border-white hover:bg-white/10 transition-colors"
+            style={{ borderColor: "white" }}
             onClick={scrollToAbout}
+            aria-label="Scroll to About"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +104,7 @@ export default function Home() {
                 d="M19 14l-7 7m0 0l-7-7m7 7V3"
               />
             </svg>
-          </Button>
+          </button>
         </div>
       </div>
     </div>

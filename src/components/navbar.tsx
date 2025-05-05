@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Button } from "@/components/ui/button";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,10 +56,10 @@ export default function Navbar() {
           >
             PUMIN WPS
           </a>
-          <Button
-            variant="ghost"
-            className="p-2 text-white hover:bg-transparent hover:text-[#e31b6d] relative z-50"
+          <button
+            className="btn btn-ghost p-2 text-white hover:bg-transparent hover:text-[#e31b6d] relative z-50"
             onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle menu"
           >
             {isOpen ? (
               <svg
@@ -93,9 +92,8 @@ export default function Navbar() {
                 />
               </svg>
             )}
-          </Button>
+          </button>
         </div>
-
 
         {isOpen && (
           <div className="fixed inset-y-0 right-0 w-64 bg-[#0a1018] pt-16 shadow-lg animate-in slide-in-from-right duration-300 z-40">
