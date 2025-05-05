@@ -34,9 +34,11 @@ export default function ProjectsSection() {
               </div>
 
               {/* Project Details */}
+
               <div className="text-white text-center lg:text-left flex flex-col lg:w-3/4 py-6 lg:py-0">
                 <h2 className="text-3xl font-semibold mb-2">{project.title}</h2>
                 <p className="text-lg font-light text-justify">{project.details}</p>
+
                 {/* Button Section */}
                 {project.links && project.links.length > 0 && (
                   <div className="mt-4 flex flex-wrap gap-2 justify-center lg:justify-start">
@@ -46,7 +48,7 @@ export default function ProjectsSection() {
                         href={link.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn btn-primary btn-sm"
+                        className="btn btn-soft btn-primary "
                       >
                         {link.label}
                       </a>
