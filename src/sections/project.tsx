@@ -15,10 +15,10 @@ export default function ProjectsSection() {
           {projectData.map((project) => (
             <div
               key={project.title}
-              className="flex flex-col lg:flex-row items-start lg:gap-10 gap-2"
+              className="flex flex-col lg:flex-row items-stretch lg:gap-10 gap-8"
             >
-              {/* Glow Effect */}
-              <div className="relative w-full lg:w-1/4">
+              {/* Left: Image */}
+              <div className="relative w-full lg:w-1/3 flex items-center justify-center transition-transform duration-300 hover:-translate-y-2">
                 <GlowEffect
                   colors={glowColors}
                   mode="colorShift"
@@ -33,10 +33,10 @@ export default function ProjectsSection() {
                 />
               </div>
 
-              {/* Project Details */}
+              {/* Right: Project Details */}
 
-              <div className="text-white text-center lg:text-left flex flex-col lg:w-3/4 py-6 lg:py-0">
-                <h2 className="text-3xl font-semibold mb-2">{project.title}</h2>
+              <div className="text-white flex flex-col lg:w-2/3 py-6 lg:py-2">
+                <h2 className="text-3xl font-semibold mb-2 text-center lg:text-left">{project.title}</h2>
                 <p className="text-lg font-light text-justify">{project.details}</p>
 
                 {/* Button Section */}
