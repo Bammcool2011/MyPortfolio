@@ -27,20 +27,23 @@ export default function Navbar() {
   return (
     <nav className="bg-[#0a1018] min-w-full fixed top-0 z-50">
       {/* Desktop Navbar */}
-      <div className="hidden md:flex h-20 items-center justify-center">
-        {navItems.map((item) => (
-          <a
-            key={item.name}
-            href={item.href}
-            onClick={(e) => {
-              e.preventDefault();
-              handleNavigation(item.href);
-            }}
-            className="text-white font-thin text-xl mx-4 hover:text-[#e31b6d] transition-colors"
-          >
-            {item.name}
-          </a>
-        ))}
+      <div className="hidden md:flex h-20 items-center justify-center relative">
+        <div className="absolute left-8 text-white font-bold text-2xl">Pumin WPS</div>
+        <div className="flex-1 flex justify-center">
+          {navItems.map((item) => (
+            <a
+              key={item.name}
+              href={item.href}
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavigation(item.href);
+              }}
+              className="text-white font-thin text-xl mx-4 hover:text-[#e31b6d] transition-colors"
+            >
+              {item.name}
+            </a>
+          ))}
+        </div>
       </div>
 
       {/* Mobile Navbar */}
