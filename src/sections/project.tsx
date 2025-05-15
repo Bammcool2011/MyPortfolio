@@ -5,7 +5,7 @@ const glowColors = ["#f06292", "#c2185b", "#e91e63"];
 
 export default function ProjectsSection() {
   return (
-    <div id='section-projects' className="mt-25">
+    <div id='section-projects'>
       <div id='projects'>
         <h1 className="text-4xl font-semibold tracking-tight text-center text-white lg:text-5xl">
           Projects

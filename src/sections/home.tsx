@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <div id='home'>
-      <div className="min-w-full sm:min-h-screen relative top-16 mb-40 sm:mb-10">
+      <div className="min-w-full sm:min-h-screen relative top-16">
         <section className="flex flex-col xl:flex-row">
           <div className="xl:w-1/2 p-4">
             <span className="sm:text-4xl text-2xl text-white leading-relaxed">
