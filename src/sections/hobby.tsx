@@ -5,7 +5,7 @@ export default function Hobby() {
         <div className="container mx-auto px-6">
             <div className="mb-16">
                 <h1 className="text-5xl text-white font-semibold text-center mb-4">
-                    Hobbies
+                    ⌈ Hobbies ⌋
                 </h1>
             </div>
             <div className="flex justify-center">

@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div id="about" className="px-4 py-10">
             <h1 className="scroll-m-20 text-4xl font-semibold tracking-tight lg:text-5xl justify-center flex text-white">
-                About
+                ⌈ About ⌋
             </h1>
             <div className="px-2 md:px-28 mt-16 flex flex-col gap-12 md:flex-row md:justify-center md:gap-16">
                 {aboutData.map((section) => (
