@@ -26,5 +26,17 @@
                 "url": "https://github.com/stamford-syntax-club/style-war"
             }
         ]
+    },
+    {
+        "imageSrc": "https://img2.pic.in.th/pic/imagef0d8e2f046b4d20b.png",
+        "imageAlt": "MySpotifyTaste",
+        "title": "MySpotifyTaste",
+        "details": "A full-stack web application that analyzes and visualizes Spotify listening habits through the Spotify Web API. The frontend is built with Next.js, styled using Tailwind CSS and Radix UI, while the backend uses GoLang for efficient data processing and API handling",
+        "links": [
+            {
+                "label": "GitHub",
+                "url": "https://github.com/NayHtetKyaw/mySpotifyTaste"
+            }
+        ]
     }
 ]

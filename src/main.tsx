@@ -6,6 +6,8 @@ import Navbar from './components/navbar'
 import About from './sections/about'
 import Projects from './sections/project'
 import Hobby from './sections/hobby'
+import Activities from './sections/activities'
+import Footer from './components/footer'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -17,6 +19,8 @@ createRoot(document.getElementById('root')!).render(
       <About />
       <Hobby />
       <Projects />
+      <Activities />
     </div>
+    <Footer />
   </StrictMode>,
 )
