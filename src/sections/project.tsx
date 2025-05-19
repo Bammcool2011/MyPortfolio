@@ -3,7 +3,7 @@ import projectData from "../data/projectData.json";
 export default function ProjectsSection() {
   return (
     <section
-      id="section-projects"
+      id="projects"
       className="flex flex-col items-center justify-center w-full min-h-screen bg-transparent"
     >
       <h1 className="text-4xl font-semibold tracking-tight text-center text-white lg:text-5xl mb-10">

@@ -2,7 +2,7 @@ import hobbyData from "../data/hobbyData.json";
 
 export default function Hobby() {
     return (
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-6" id="hobbies">
             <div className="mb-16">
                 <h1 className="text-5xl text-white font-semibold text-center mb-4">
                     ⌈ Hobbies ⌋
