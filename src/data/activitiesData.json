@@ -3,12 +3,12 @@
         "title": "Introduction to Git & GitHub Workshop",
         "position": "Speaker",
         "desc": "Delivered a presentation to educate peers on version control fundamentals using Git and GitHub, enhancing technical communication and leadership skills.",
-        "img": "src/assets/projects/git_workshop.webp"
+        "img": "https://img2.pic.in.th/pic/git_workshop.webp"
     },
     {
         "title": "Basic Docker Workshop",
         "position": "Speaker",
         "desc": "Led a session for university juniors and participants, introducing containerization concepts with Docker, promoting knowledge-sharing and community engagement.",
-        "img": "src/assets/projects/docker_workshop.webp"
+        "img": "https://img5.pic.in.th/file/secure-sv1/docker_workshop.webp"
     }
 ]
