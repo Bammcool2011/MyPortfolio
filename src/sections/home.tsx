@@ -55,7 +55,7 @@ export default function Home() {
 
           <div className="flex justify-center md:justify-start space-x-4">
             <a
-              href="https://drive.google.com/file/d/127ODDoYMQOoKpI1GBwWI_f79gIDDypAu/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1rilip8IqUVon7Ze5OCbF9zc_w3hkPeXn/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline border-[1px] mt-10 sm:mt-6 text-white text-xl"
