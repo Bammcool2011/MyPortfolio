@@ -10,7 +10,7 @@ export default function ProjectsSection() {
         ⌈ Projects ⌋
       </h1>
 
-      <div className="flex flex-col items-center gap-8 max-w-[80dvw] px-4 sm:px-8">
+      <div className="flex flex-col items-center gap-8 max-w-[85dvw] px-4 sm:px-8">
         {projectData.map((project) => (
           <div
             key={project.title}

@@ -12,10 +12,10 @@ import Footer from './components/footer'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Navbar />
-    <div className='px-12 py-14'>
+    <div className='px-16 py-20'>
       <Home />
     </div>
-    <div className='px-12 py-14 space-y-36'>
+    <div className='py-14 space-y-36'>
       <About />
       <Hobby />
       <Projects />

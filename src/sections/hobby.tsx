@@ -13,7 +13,7 @@ export default function Hobby() {
           {hobbyData.map((hobby, idx) => (
             <div
               key={idx}
-              className="bg-[#1a222c] w-full sm:w-[350px] md:w-[400px] lg:w-[500px] h-auto min-h-[180px]
+              className="bg-[#1a222c] w-full sm:w-[350px] md:w-[400px] lg:w-[550px] h-auto min-h-[180px]
                                        flex flex-col sm:flex-row items-center sm:items-center
                                        p-4 sm:p-6 rounded-lg shadow
                                        border border-transparent transition-all duration-300

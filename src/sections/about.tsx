@@ -2,7 +2,7 @@ import aboutData from '../data/aboutData.json';
 
 export default function About() {
     return (
-        <div id="about" className="px-4 py-10">
+        <div id="about" className="py-10">
             <h1 className="scroll-m-20 text-4xl font-semibold tracking-tight lg:text-5xl justify-center flex text-white">
                 ⌈ About ⌋
             </h1>

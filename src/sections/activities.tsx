@@ -9,7 +9,7 @@ export default function Activities() {
       <h1 className="text-5xl text-white font-semibold text-center mb-4">
         ⌈ Activities ⌋
       </h1>
-      <div className="relative grid sm:grid-cols-1 md:grid-cols-2 gap-6 max-w-[74dvw] w-full">
+      <div className="relative grid sm:grid-cols-1 md:grid-cols-2 gap-6 max-w-[75dvw] w-full">
         {/* Dashed vertical line for md and up */}
         <div className="hidden md:block absolute top-0 bottom-0 left-1/2 w-0.5 border-l-2 border-dashed border-zinc-400 z-10" />
 
