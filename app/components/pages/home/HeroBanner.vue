@@ -1,19 +1,19 @@
 <template>
-  <section id="home" class="min-w-full sm:min-h-screen relative top-16">
-    <div class="flex flex-col xl:flex-row items-center xl:items-start">
+  <section id="home" class="relative top-16 min-w-full sm:min-h-screen">
+    <div class="flex flex-col items-center xl:flex-row xl:items-start">
       <!-- Left: Intro -->
       <div
-        class="xl:w-1/2 p-4 flex flex-col items-center xl:items-start text-center xl:text-left"
+        class="flex flex-col items-center p-4 text-center xl:w-1/2 xl:items-start xl:text-left"
       >
-        <header class="sm:text-4xl text-2xl text-white leading-relaxed">
+        <header class="text-2xl leading-relaxed text-white sm:text-4xl">
           <h1>Hello! My name is</h1>
-          <h2 class="text-3xl sm:text-5xl md:text-6xl text-white font-semibold">
+          <h2 class="text-3xl font-semibold text-white sm:text-5xl md:text-6xl">
             Pumin Whungprasit
           </h2>
         </header>
 
         <div
-          class="inline-flex whitespace-pre-wrap text-2xl mt-6 tracking-widest text-[#e31b6d] justify-center xl:justify-start"
+          class="mt-6 inline-flex justify-center text-2xl tracking-widest whitespace-pre-wrap text-[#e31b6d] xl:justify-start"
         >
           Junior •
           <TextLoop
@@ -23,7 +23,7 @@
         </div>
 
         <p
-          class="text-white text-xl md:text-xl lg:text-2xl font-thin tracking-wide mt-4"
+          class="mt-4 text-xl font-thin tracking-wide text-white md:text-xl lg:text-2xl"
         >
           I'm a Software Engineering graduate and junior developer. I'm
           passionate about improving my skills in web development and have
@@ -33,7 +33,7 @@
           impactful solutions.
         </p>
 
-        <div class="flex justify-center md:justify-start space-x-4">
+        <div class="flex justify-center space-x-4 md:justify-start">
           <UButton
             variant="outline"
             color="primary"
@@ -41,7 +41,7 @@
             :href="'https://drive.google.com/file/d/1rilip8IqUVon7Ze5OCbF9zc_w3hkPeXn/view?usp=drive_link'"
             target="_blank"
             rel="noopener noreferrer"
-            class="mt-10 sm:mt-6 text-white"
+            class="mt-10 text-white sm:mt-6"
           >
             View my resume
           </UButton>
@@ -49,9 +49,9 @@
       </div>
 
       <!-- Right: ASCII Art -->
-      <aside class="w-full xl:w-1/2 p-6 xl:block hidden">
+      <aside class="hidden w-full p-6 xl:block xl:w-1/2">
         <pre
-          class="text-white w-[40%] mx-auto text-center font-mono whitespace-pre m-12"
+          class="m-12 mx-auto w-[40%] text-center font-mono whitespace-pre text-white"
         >
           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
           ⠀⠀⠀⠀⢀⡴⣆⠀⠀⠀⠀⠀⣠⡀⠀⠀⠀⠀⠀⠀⣼⣿⡗⠀⠀⠀⠀
@@ -68,7 +68,7 @@
 
     <!-- Down Arrow Button -->
     <div
-      class="absolute bottom-50 left-1/2 transform -translate-x-1/2 hidden sm:block"
+      class="absolute bottom-50 left-1/2 hidden -translate-x-1/2 transform sm:block"
     >
       <UButton
         variant="outline"

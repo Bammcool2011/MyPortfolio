@@ -1,14 +1,14 @@
 <template>
-  <nav class="bg-[#0a1018] min-w-full fixed top-0 z-50">
+  <nav class="fixed top-0 z-50 min-w-full bg-[#0a1018]">
     <!-- Desktop Navbar -->
-    <div class="hidden md:flex h-20 items-center justify-center relative">
-      <div class="absolute left-8 text-white font-bold text-2xl">Pumin WPS</div>
-      <div class="flex-1 flex justify-center">
+    <div class="relative hidden h-20 items-center justify-center md:flex">
+      <div class="absolute left-8 text-2xl font-bold text-white">Pumin WPS</div>
+      <div class="flex flex-1 justify-center">
         <a
           v-for="item in navItems"
           :key="item.name"
           :href="item.href"
-          class="text-white font-thin text-xl mx-4 hover:text-[#e31b6d] transition-colors"
+          class="mx-4 text-xl font-thin text-white transition-colors hover:text-[#e31b6d]"
           @click.prevent="handleNavigation(item.href)"
         >
           {{ item.name }}
@@ -21,7 +21,7 @@
       <div class="flex items-center justify-between p-4">
         <a
           href="#home"
-          class="text-white font-thin text-xl"
+          class="text-xl font-thin text-white"
           @click.prevent="handleNavigation('#home')"
         >
           PUMIN WPS
@@ -36,7 +36,7 @@
         >
           <svg
             v-if="isOpen"
-            class="w-6 h-6"
+            class="h-6 w-6"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -51,7 +51,7 @@
           </svg>
           <svg
             v-else
-            class="w-6 h-6"
+            class="h-6 w-6"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -73,14 +73,14 @@
       >
         <div
           v-if="isOpen"
-          class="fixed inset-y-0 right-0 w-64 bg-[#0a1018] pt-16 shadow-lg z-40"
+          class="fixed inset-y-0 right-0 z-40 w-64 bg-[#0a1018] pt-16 shadow-lg"
         >
           <div class="flex flex-col items-center">
             <a
               v-for="item in navItems"
               :key="item.name"
               :href="item.href"
-              class="text-white font-thin text-xl py-4 w-full text-center hover:text-[#e31b6d] hover:bg-white/5 transition-colors"
+              class="w-full py-4 text-center text-xl font-thin text-white transition-colors hover:bg-white/5 hover:text-[#e31b6d]"
               @click.prevent="handleNavigation(item.href)"
             >
               {{ item.name }}

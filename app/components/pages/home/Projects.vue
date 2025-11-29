@@ -1,41 +1,41 @@
 <template>
   <section
     id="projects"
-    class="flex flex-col items-center justify-center w-full min-h-screen bg-transparent"
+    class="flex min-h-screen w-full flex-col items-center justify-center bg-transparent"
   >
     <h1
-      class="text-4xl font-semibold tracking-tight text-center text-white lg:text-5xl mb-10"
+      class="mb-10 text-center text-4xl font-semibold tracking-tight text-white lg:text-5xl"
     >
       ⌈ Projects ⌋
     </h1>
 
-    <div class="flex flex-col items-center gap-8 max-w-[85dvw] px-4 sm:px-8">
+    <div class="flex max-w-[85dvw] flex-col items-center gap-8 px-4 sm:px-8">
       <div
         v-for="project in projectData"
         :key="project.title"
-        class="flex flex-col items-center lg:flex-row lg:items-stretch lg:gap-10 gap-8 bg-[#1a222c] rounded-xl shadow-lg p-6 w-full"
+        class="flex w-full flex-col items-center gap-8 rounded-xl bg-[#1a222c] p-6 shadow-lg lg:flex-row lg:items-stretch lg:gap-10"
       >
         <!-- Project Image -->
         <div
-          class="relative w-full max-w-[430px] aspect-3/2 flex items-center justify-center mx-auto"
+          class="relative mx-auto flex aspect-3/2 w-full max-w-[430px] items-center justify-center"
         >
           <NuxtImg
-            class="w-full h-full object-cover rounded-lg"
+            class="h-full w-full rounded-lg object-cover"
             :src="project.imageSrc || '/default-image.png'"
             :alt="project.imageAlt || 'Project image'"
           />
         </div>
         <!-- Project Details -->
         <div
-          class="text-white flex flex-col w-full px-5 py-6 lg:py-2 items-center lg:items-start"
+          class="flex w-full flex-col items-center px-5 py-6 text-white lg:items-start lg:py-2"
         >
-          <h2 class="text-3xl font-semibold mb-2 text-center lg:text-left">
+          <h2 class="mb-2 text-center text-3xl font-semibold lg:text-left">
             {{ project.title }}
           </h2>
           <p class="text-lg font-light">{{ project.details }}</p>
           <div
             v-if="project.links?.length > 0"
-            class="mt-4 flex flex-wrap gap-2 justify-center lg:justify-start"
+            class="mt-4 flex flex-wrap justify-center gap-2 lg:justify-start"
           >
             <UButton
               v-for="link in project.links"

@@ -1,17 +1,17 @@
 <template>
   <section
-    class="flex flex-col gap-4 items-center"
+    class="flex flex-col items-center gap-4"
     aria-label="Activities Section"
   >
-    <h1 class="text-5xl text-white font-semibold text-center mb-4">
+    <h1 class="mb-4 text-center text-5xl font-semibold text-white">
       ⌈ Activities ⌋
     </h1>
     <div
-      class="relative grid sm:grid-cols-1 md:grid-cols-2 gap-6 max-w-[75dvw] w-full"
+      class="relative grid w-full max-w-[75dvw] gap-6 sm:grid-cols-1 md:grid-cols-2"
     >
       <!-- Dashed vertical line for md and up -->
       <div
-        class="hidden md:block absolute top-0 bottom-0 left-1/2 w-0.5 border-l-2 border-dashed border-zinc-400 z-10"
+        class="absolute top-0 bottom-0 left-1/2 z-10 hidden w-0.5 border-l-2 border-dashed border-zinc-400 md:block"
       />
 
       <div
@@ -24,13 +24,13 @@
         <NuxtImg
           :src="activity.img"
           :alt="activity.title || 'Activity image'"
-          class="w-full h-72 object-cover rounded mb-6"
+          class="mb-6 h-72 w-full rounded object-cover"
           loading="lazy"
         />
-        <h2 class="text-2xl font-bold mb-2 text-center">
+        <h2 class="mb-2 text-center text-2xl font-bold">
           {{ activity.title }}
         </h2>
-        <h3 class="text-lg mb-2 text-center text-zinc-300">
+        <h3 class="mb-2 text-center text-lg text-zinc-300">
           {{ activity.position }}
         </h3>
         <p class="text-center">{{ activity.desc }}</p>

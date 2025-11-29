@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-center py-6 bg-[#0a1018] text-base text-white mt-10">
+  <footer class="mt-10 bg-[#0a1018] py-6 text-center text-base text-white">
     © 2025 Pumin WPS. All rights reserved.
   </footer>
 </template>
