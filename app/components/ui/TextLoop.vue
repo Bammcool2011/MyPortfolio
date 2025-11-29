@@ -24,7 +24,7 @@ const props = withDefaults(defineProps<Props>(), {
 
 const currentIndex = ref(0);
 const items = ref(props.items);
-let timer: NodeJS.Timeout | null = null;
+let timer: number | null = null;
 
 onMounted(() => {
   startLoop();

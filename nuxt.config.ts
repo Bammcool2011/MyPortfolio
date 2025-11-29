@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   modules: ["@nuxt/eslint", "@nuxt/image", "@nuxt/ui"],
   css: ["~/assets/css/global.css"],
   components: {
-    dirs: ["~/components", "~/components/sections", "~/components/ui"]
-  }
+    dirs: ["~/components", "~/components/sections", "~/components/ui"],
+  },
+  colorMode: {
+    preference: "dark",
+  },
 });

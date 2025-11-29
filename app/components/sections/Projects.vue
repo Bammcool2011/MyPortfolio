@@ -17,7 +17,7 @@
       >
         <!-- Project Image -->
         <div
-          class="relative w-full max-w-[430px] aspect-[3/2] flex items-center justify-center mx-auto"
+          class="relative w-full max-w-[430px] aspect-3/2 flex items-center justify-center mx-auto"
         >
           <NuxtImg
             class="w-full h-full object-cover rounded-lg"

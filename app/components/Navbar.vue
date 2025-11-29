@@ -28,8 +28,10 @@
         </a>
         <UButton
           variant="ghost"
-          class="p-2 text-white hover:bg-transparent hover:text-[#e31b6d] relative z-50"
+          color="neutral"
+          square
           aria-label="Toggle menu"
+          class="relative z-50"
           @click="isOpen = !isOpen"
         >
           <svg

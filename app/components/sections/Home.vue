@@ -15,7 +15,7 @@
         <div
           class="inline-flex whitespace-pre-wrap text-2xl mt-6 tracking-widest text-[#e31b6d] justify-center xl:justify-start"
         >
-          Junior •{' '}
+          Junior •
           <TextLoop
             class="overflow-y-clip"
             :items="['Engineer', 'Developers', 'Learner']"
@@ -36,10 +36,12 @@
         <div class="flex justify-center md:justify-start space-x-4">
           <UButton
             variant="outline"
+            color="primary"
+            size="lg"
             :href="'https://drive.google.com/file/d/1rilip8IqUVon7Ze5OCbF9zc_w3hkPeXn/view?usp=drive_link'"
             target="_blank"
             rel="noopener noreferrer"
-            class="border-[1px] mt-10 sm:mt-6 text-white text-xl"
+            class="mt-10 sm:mt-6 text-white"
           >
             View my resume
           </UButton>
@@ -49,7 +51,7 @@
       <!-- Right: ASCII Art -->
       <aside class="w-full xl:w-1/2 p-6 xl:block hidden">
         <pre
-          class="text-white w-[40%] mx-auto text-center font-mono whitespace-pre-wrap m-12"
+          class="text-white w-[40%] mx-auto text-center font-mono whitespace-pre m-12"
         >
           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
           ⠀⠀⠀⠀⢀⡴⣆⠀⠀⠀⠀⠀⣠⡀⠀⠀⠀⠀⠀⠀⣼⣿⡗⠀⠀⠀⠀
@@ -70,9 +72,11 @@
     >
       <UButton
         variant="outline"
-        class="w-16 h-16 rounded-full p-0 flex items-center justify-center border-white hover:bg-white/10 transition-colors"
-        :style="{ borderColor: 'white' }"
+        color="primary"
+        square
+        size="xl"
         aria-label="Scroll to About"
+        class="rounded-full"
         @click="scrollToAbout"
       >
         <svg
