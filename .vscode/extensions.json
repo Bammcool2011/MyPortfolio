@@ -1,0 +1,38 @@
+{
+  "recommendations": [
+    // Essential for Nuxt.js development
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin",
+    
+    // ESLint for code quality and error checking
+    "dbaeumer.vscode-eslint",
+    
+    // TypeScript support
+    "ms-vscode.vscode-typescript-next",
+    
+    // Tailwind CSS support (detected from tailwind.config.js)
+    "bradlc.vscode-tailwindcss",
+    
+    // Auto formatting and code style
+    "esbenp.prettier-vscode",
+    
+    // Git integration enhancements
+    "eamodio.gitlens",
+    
+    // Auto rename paired HTML/Vue tags
+    "formulahendry.auto-rename-tag",
+    
+    // Better file icons
+    "vscode-icons-team.vscode-icons",
+    
+    // Path intellisense for imports
+    "christian-kohler.path-intellisense",
+    
+    // CSS class completion for Tailwind
+    "zignd.html-css-class-completion"
+  ],
+  "unwantedRecommendations": [
+    // Disable Vetur (conflicts with Volar)
+    "octref.vetur"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Plan API Integration",
+			"type": "shell",
+			"command": "echo 'Planning API integration for withdrawal summary'"
+		},
+		{
+			"label": "Run ESLint once",
+			"type": "shell",
+			"command": "npm run lint",
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Typecheck Project",
+			"type": "shell",
+			"command": "npm run typecheck",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Run ESLint once",
+			"type": "shell",
+			"command": "npm run lint"
+		},
+		{
+			"label": "Typecheck Project",
+			"type": "shell",
+			"command": "npm run typecheck"
+		},
+		{
+			"label": "Run ESLint once",
+			"type": "shell",
+			"command": "npm run lint"
+		},
+		{
+			"label": "Typecheck Project",
+			"type": "shell",
+			"command": "npm run typecheck"
+		},
+		{
+			"label": "Run ESLint once",
+			"type": "shell",
+			"command": "npm run lint"
+		},
+		{
+			"label": "Typecheck Project",
+			"type": "shell",
+			"command": "npm run typecheck"
+		},
+		{
+			"label": "Run ESLint once",
+			"type": "shell",
+			"command": "npm run lint"
+		},
+		{
+			"label": "Typecheck Project",
+			"type": "shell",
+			"command": "npm run typecheck"
+		},
+		{
+			"label": "Run ESLint once",
+			"type": "shell",
+			"command": "npm run lint"
+		},
+		{
+			"label": "Typecheck Project",
+			"type": "shell",
+			"command": "npm run typecheck"
+		},
+		{
+			"label": "Run ESLint",
+			"type": "shell",
+			"command": "npm run lint"
+		},
+		{
+			"label": "Run ESLint",
+			"type": "shell",
+			"command": "npm run lint"
+		},
+		{
+			"label": "Typecheck Project",
+			"type": "shell",
+			"command": "npm run typecheck"
+		},
+		{
+			"label": "Run ESLint",
+			"type": "shell",
+			"command": "npm run lint"
+		},
+		{
+			"label": "Typecheck Project",
+			"type": "shell",
+			"command": "npm run typecheck"
+		},
+		{
+			"label": "Run ESLint",
+			"type": "shell",
+			"command": "npm run lint"
+		},
+		{
+			"label": "Typecheck Project",
+			"type": "shell",
+			"command": "npm run typecheck"
+		},
+		{
+			"label": "Run ESLint",
+			"type": "shell",
+			"command": "npm run lint",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Typecheck Project",
+			"type": "shell",
+			"command": "npm run typecheck",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Run ESLint",
+			"type": "shell",
+			"command": "npm run lint",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Typecheck Project",
+			"type": "shell",
+			"command": "npm run typecheck",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}

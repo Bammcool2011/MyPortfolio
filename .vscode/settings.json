@@ -1,0 +1,71 @@
+{
+	// Formatting settings
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit",
+		"source.organizeImports": "explicit"
+	},
+
+	// File-specific formatters - Use ESLint for all files
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// ESLint configuration for flat config (eslint.config.mjs)
+	"eslint.enable": true,
+	"eslint.validate": ["javascript", "typescript", "vue"],
+	"eslint.useFlatConfig": true,
+	"eslint.workingDirectories": ["."],
+
+	// Vue and Volar settings
+	"volar.format.enable": false,
+	"vue.server.hybridMode": true,
+	"vue.codeActions.enabled": true,
+	"vue.complete.casing.props": "camel",
+	"vue.complete.casing.tags": "pascal",
+
+	// TypeScript settings
+	"typescript.preferences.importModuleSpecifier": "relative",
+	"typescript.suggest.autoImports": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.includePackageJsonAutoImports": "on",
+
+	// Tailwind CSS settings
+	"tailwindCSS.includeLanguages": {
+		"vue": "html",
+		"vue-html": "html"
+	},
+	"tailwindCSS.experimental.classRegex": [
+		["class:\\s*?[\"'`]([^\"'`]*).*?[\"'`]", "[\"'`]([^\"'`]*)[\"'`]"]
+	],
+
+	// File associations
+	"files.associations": {
+		"*.vue": "vue"
+	},
+
+	// Emmet for Vue files
+	"emmet.includeLanguages": {
+		"vue-html": "html",
+		"vue": "html"
+	},
+
+	// Hide auto-generated files
+	"i18n-ally.localesPaths": ["i18n"],
+	"i18n-ally.keystyle": "nested",
+	"vue3snippets.enable-compile-vue-file-on-did-save-code": false,
+	"i18n-ally.sourceLanguage": "en"
+	// "cSpell.words": ["Myshop", "เขาวงกตแห่งปรมาจารย์"]
+}
