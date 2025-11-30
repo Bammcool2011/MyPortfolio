@@ -1,17 +1,19 @@
 <template>
   <section
-    class="flex flex-col items-center gap-4 px-4 py-24 md:px-6"
+    class="flex flex-col items-center gap-4 px-4 py-24 lg:px-6"
     aria-label="Activities Section"
   >
-    <h1 class="mb-4 text-center text-5xl font-semibold text-white">
+    <h1
+      class="mb-4 text-center text-3xl font-semibold text-white lg:text-4xl xl:text-5xl"
+    >
       ⌈ Activities ⌋
     </h1>
     <div
-      class="relative grid w-full max-w-[75dvw] gap-6 sm:grid-cols-1 md:grid-cols-2"
+      class="relative grid w-full max-w-[75dvw] grid-cols-1 gap-6 lg:grid-cols-2"
     >
-      <!-- Dashed vertical line for md and up -->
+      <!-- Dashed vertical line for lg and up -->
       <div
-        class="absolute top-0 bottom-0 left-1/2 z-10 hidden w-0.5 border-l-2 border-dashed border-zinc-400 md:block"
+        class="absolute top-0 bottom-0 left-1/2 z-10 hidden w-0.5 border-l-2 border-dashed border-zinc-400 lg:block"
       />
 
       <div
@@ -27,13 +29,13 @@
           class="mb-6 h-72 w-full rounded object-cover"
           loading="lazy"
         />
-        <h2 class="mb-2 text-center text-2xl font-bold">
+        <h2 class="mb-2 text-center text-xl font-bold lg:text-2xl">
           {{ activity.title }}
         </h2>
-        <h3 class="mb-2 text-center text-lg text-zinc-300">
+        <h3 class="mb-2 text-center text-base text-zinc-300 lg:text-lg">
           {{ activity.position }}
         </h3>
-        <p class="text-center">{{ activity.desc }}</p>
+        <p class="text-center text-sm lg:text-base">{{ activity.desc }}</p>
       </div>
     </div>
   </section>

@@ -1,15 +1,15 @@
 <template>
   <section
     id="projects"
-    class="flex min-h-screen w-full flex-col items-center justify-center bg-transparent px-4 pt-24 md:px-6"
+    class="flex min-h-screen w-full flex-col items-center justify-center bg-transparent px-4 pt-24 lg:px-6"
   >
     <h1
-      class="mb-10 text-center text-4xl font-semibold tracking-tight text-white lg:text-5xl"
+      class="mb-10 text-center text-3xl font-semibold tracking-tight text-white lg:text-4xl xl:text-5xl"
     >
       ⌈ Projects ⌋
     </h1>
 
-    <div class="flex max-w-[85dvw] flex-col items-center gap-8 px-4 sm:px-8">
+    <div class="flex max-w-[85dvw] flex-col items-center gap-8 px-4 lg:px-8">
       <div
         v-for="project in projectData"
         :key="project.title"
@@ -29,10 +29,12 @@
         <div
           class="flex w-full flex-col items-center px-5 py-6 text-white lg:items-start lg:py-2"
         >
-          <h2 class="mb-2 text-center text-3xl font-semibold lg:text-left">
+          <h2
+            class="mb-2 text-center text-2xl font-semibold lg:text-left lg:text-2xl xl:text-3xl"
+          >
             {{ project.title }}
           </h2>
-          <p class="text-lg font-light">{{ project.details }}</p>
+          <p class="text-base font-light lg:text-lg">{{ project.details }}</p>
           <div
             v-if="project.links?.length > 0"
             class="mt-4 flex flex-wrap justify-center gap-2 lg:justify-start"

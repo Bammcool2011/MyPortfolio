@@ -7,15 +7,17 @@
       <div
         class="flex flex-col items-center p-4 text-center xl:w-1/2 xl:items-start xl:text-left"
       >
-        <header class="text-2xl leading-relaxed text-white sm:text-4xl">
+        <header
+          class="text-xl leading-relaxed text-white lg:text-3xl xl:text-4xl"
+        >
           <h1>Hello! My name is</h1>
-          <h2 class="text-3xl font-semibold text-white sm:text-5xl md:text-6xl">
+          <h2 class="text-3xl font-semibold text-white lg:text-5xl xl:text-6xl">
             Pumin Whungprasit
           </h2>
         </header>
 
         <div
-          class="mt-6 inline-flex justify-center text-2xl tracking-widest whitespace-pre-wrap text-[#e31b6d] xl:justify-start"
+          class="mt-6 inline-flex justify-center text-lg tracking-widest whitespace-pre-wrap text-[#e31b6d] lg:text-xl xl:justify-start xl:text-2xl"
         >
           Junior •
           <TextLoop
@@ -25,7 +27,7 @@
         </div>
 
         <p
-          class="mt-4 text-xl font-thin tracking-wide text-white md:text-xl lg:text-2xl"
+          class="mt-4 text-base font-thin tracking-wide text-white lg:text-lg xl:text-xl"
         >
           I'm a Software Engineering graduate and junior developer. I'm
           passionate about improving my skills in web development and have

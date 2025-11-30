@@ -14,7 +14,7 @@
   >
     <template #left>
       <span
-        class="cursor-pointer text-xl font-bold text-white"
+        class="cursor-pointer text-lg font-bold text-white lg:text-xl"
         @click="scrollToTop"
         >Pumin WPS</span
       >
