@@ -1,7 +1,7 @@
 <template>
   <section
     id="projects"
-    class="flex min-h-screen w-full flex-col items-center justify-center bg-transparent"
+    class="flex min-h-screen w-full flex-col items-center justify-center bg-transparent px-4 pt-24 md:px-6"
   >
     <h1
       class="mb-10 text-center text-4xl font-semibold tracking-tight text-white lg:text-5xl"

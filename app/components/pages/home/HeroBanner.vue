@@ -1,6 +1,8 @@
 <template>
-  <section id="home" class="relative top-16 min-w-full sm:min-h-screen">
-    <div class="flex flex-col items-center xl:flex-row xl:items-start">
+  <section id="home" class="relative min-w-full sm:min-h-screen">
+    <div
+      class="flex flex-col items-center p-4 xl:flex-row xl:items-start xl:p-16"
+    >
       <!-- Left: Intro -->
       <div
         class="flex flex-col items-center p-4 text-center xl:w-1/2 xl:items-start xl:text-left"
@@ -68,7 +70,7 @@
 
     <!-- Down Arrow Button -->
     <div
-      class="absolute bottom-50 left-1/2 hidden -translate-x-1/2 transform sm:block"
+      class="absolute bottom-30 left-1/2 hidden -translate-x-1/2 transform sm:block"
     >
       <UButton
         variant="outline"

@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col items-center gap-4"
+    class="flex flex-col items-center gap-4 px-4 py-24 md:px-6"
     aria-label="Activities Section"
   >
     <h1 class="mb-4 text-center text-5xl font-semibold text-white">

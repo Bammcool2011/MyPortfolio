@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeroBanner />
-    <div class="py-14 space-y-36">
+    <div>
       <About />
       <Hobby />
       <Projects />
