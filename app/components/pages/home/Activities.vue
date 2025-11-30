@@ -50,5 +50,5 @@
 </template>
 
 <script setup lang="ts">
-import activitiesData from "~/data/activitiesData.json";
+import activitiesData from "~/data/landing-page/activitiesData.json";
 </script>

@@ -59,5 +59,5 @@
 </template>
 
 <script setup lang="ts">
-import projectData from "~/data/projectData.json";
+import projectData from "~/data/landing-page/projectData.json";
 </script>

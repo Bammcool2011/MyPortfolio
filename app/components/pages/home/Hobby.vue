@@ -30,5 +30,5 @@
 </template>
 
 <script setup lang="ts">
-import hobbyData from "~/data/hobbyData.json";
+import hobbyData from "~/data/landing-page/hobbyData.json";
 </script>

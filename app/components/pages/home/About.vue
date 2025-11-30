@@ -29,5 +29,5 @@
 </template>
 
 <script setup lang="ts">
-import aboutData from "~/data/aboutData.json";
+import aboutData from "~/data/landing-page/aboutData.json";
 </script>

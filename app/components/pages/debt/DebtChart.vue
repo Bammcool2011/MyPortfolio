@@ -49,6 +49,12 @@ interface Props {
 const props = defineProps<Props>();
 
 const chartOption = computed(() => ({
+  animationDuration: 1000,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  animationEasing: "cubicOut" as any,
+  textStyle: {
+    fontFamily: '"LINE Seed Sans TH", "Noto Sans Thai", sans-serif',
+  },
   tooltip: {
     trigger: "item",
     formatter: "{b}: {c} บาท ({d}%)",
@@ -64,6 +70,8 @@ const chartOption = computed(() => ({
       type: "pie",
       radius: ["40%", "70%"],
       avoidLabelOverlap: false,
+      animationDelay: (idx: number) => idx * 100,
+      animationType: "scale",
       itemStyle: {
         borderRadius: 10,
         borderColor: "#fff",
@@ -81,8 +89,6 @@ const chartOption = computed(() => ({
       emphasis: {
         label: {
           show: true,
-          fontSize: 18,
-          fontWeight: "bold",
         },
       },
       labelLine: {
