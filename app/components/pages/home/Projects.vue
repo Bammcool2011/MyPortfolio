@@ -23,6 +23,7 @@
             class="h-full w-full rounded-lg object-cover"
             :src="project.imageSrc || '/default-image.png'"
             :alt="project.imageAlt || 'Project image'"
+            format="webp"
           />
         </div>
         <!-- Project Details -->

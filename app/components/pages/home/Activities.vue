@@ -9,26 +9,34 @@
       ⌈ Activities ⌋
     </h1>
     <div
-      class="relative grid w-full max-w-[75dvw] grid-cols-1 gap-6 lg:grid-cols-2"
+      class="relative grid w-full max-w-[80dvw] grid-cols-1 gap-6 lg:grid-cols-3"
     >
-      <!-- Dashed vertical line for lg and up -->
+      <!-- Dashed vertical lines for lg and up -->
       <div
-        class="absolute top-0 bottom-0 left-1/2 z-10 hidden w-0.5 border-l-2 border-dashed border-zinc-400 lg:block"
+        class="absolute top-0 bottom-0 left-1/3 z-10 hidden w-0.5 border-l-2 border-dashed border-zinc-400 lg:block"
+      />
+      <div
+        class="absolute top-0 bottom-0 left-2/3 z-10 hidden w-0.5 border-l-2 border-dashed border-zinc-400 lg:block"
       />
 
-      <div
+      <UCard
         v-for="(activity, idx) in activitiesData"
         :key="idx"
-        class="rounded-lg p-6 text-white shadow"
+        variant="soft"
+        :ui="{ root: 'bg-transparent divide-y-0' }"
+        class="text-white shadow"
         tabindex="0"
         :aria-label="activity.title"
       >
-        <NuxtImg
-          :src="activity.img"
-          :alt="activity.title || 'Activity image'"
-          class="mb-6 h-72 w-full rounded object-cover"
-          loading="lazy"
-        />
+        <template #header>
+          <NuxtImg
+            :src="activity.img"
+            :alt="activity.title || 'Activity image'"
+            class="h-72 w-full rounded object-cover"
+            loading="lazy"
+            format="webp"
+          />
+        </template>
         <h2 class="mb-2 text-center text-xl font-bold lg:text-2xl">
           {{ activity.title }}
         </h2>
@@ -36,7 +44,7 @@
           {{ activity.position }}
         </h3>
         <p class="text-center text-sm lg:text-base">{{ activity.desc }}</p>
-      </div>
+      </UCard>
     </div>
   </section>
 </template>

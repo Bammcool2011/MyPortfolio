@@ -1,14 +1,20 @@
 [
-    {
-        "title": "Introduction to Git & GitHub Workshop",
-        "position": "Speaker",
-        "desc": "Delivered a presentation to educate peers on version control fundamentals using Git and GitHub, enhancing technical communication and leadership skills.",
-        "img": "https://img2.pic.in.th/pic/git_workshop.webp"
-    },
-    {
-        "title": "Basic Docker Workshop",
-        "position": "Speaker",
-        "desc": "Led a session for university juniors and participants, introducing containerization concepts with Docker, promoting knowledge-sharing and community engagement.",
-        "img": "https://img5.pic.in.th/file/secure-sv1/docker_workshop.webp"
-    }
+  {
+    "title": "Git & GitHub Workshop",
+    "position": "Speaker",
+    "desc": "Delivered a presentation to educate peers on version control fundamentals using Git and GitHub, enhancing technical communication and leadership skills.",
+    "img": "https://img2.pic.in.th/pic/git_workshop.webp"
+  },
+  {
+    "title": "Basic Docker Workshop",
+    "position": "Speaker",
+    "desc": "Led a session for university juniors and participants, introducing containerization concepts with Docker, promoting knowledge-sharing and community engagement.",
+    "img": "https://img5.pic.in.th/file/secure-sv1/docker_workshop.webp"
+  },
+  {
+    "title": "Style War CSS competition",
+    "position": "Dev",
+    "desc": "Participated in creating a full webpage with WebSocket for participants to compete in writing HTML + CSS according to the given challenges.",
+    "img": "https://img5.pic.in.th/file/secure-sv1/IMG_1272906cb4f2ae452007.jpg"
+  }
 ]
