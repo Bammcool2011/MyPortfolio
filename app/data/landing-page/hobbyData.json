@@ -1,0 +1,33 @@
+[
+  {
+    "icon": "💻",
+
+    "title": "Web Development",
+
+    "desc": "I love creating websites and web applications. I enjoy working with HTML, CSS, and JavaScript."
+  },
+
+  {
+    "icon": "🎧",
+
+    "title": "Listening to Music",
+
+    "desc": "Music keeps me focused and inspired. I’m into EDM, high-energy build-up tracks, and both Japanese and Western music."
+  },
+
+  {
+    "icon": "🎮",
+
+    "title": "Gaming",
+
+    "desc": "I enjoy playing video games, especially military simulation (milsim), MMORPGs, and real-time strategy games. I love the immersive experiences and tactical depth they offer."
+  },
+
+  {
+    "icon": "🌿",
+
+    "title": "Touching Grass",
+
+    "desc": "Sometimes I take a break from the screen to enjoy the outdoors, get fresh air, and reset my mind."
+  }
+]
