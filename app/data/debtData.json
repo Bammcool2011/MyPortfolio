@@ -1,0 +1,10 @@
+{
+  "debtor": {
+    "name": "Armanah Musor",
+    "totalDebt": 30000,
+    "installmentMonths": 10,
+    "monthlyPayment": 3000,
+    "startDate": "2025-11-01"
+  },
+  "payments": []
+}

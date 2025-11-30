@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="flex min-h-screen flex-col">
     <NuxtRouteAnnouncer />
     <Navbar />
-    <div>
+    <div class="flex-1">
       <NuxtPage />
     </div>
     <Footer />
